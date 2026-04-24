@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <div class="brand">PORTFOLIO</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#activities">Activities</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1 class="hero-title">
+            In the zero-days, <br>
+            I am the <span class="highlight">Constant</span> Defense.
+            </h1><br>
+            <div class="hero-buttons">
+                <a href="https://hjstu.tistory.com" class="btn primary">Tistory</a>
+                <a href="https://github.com/zkrxnp" class="btn secondary">Github</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="about-section-box">
+                <h2 class="section-label">ABOUT ME</h2>
+                
+                <div class="about-content-grid">
+                    <div class="about-item">
+                        <strong>NAME</strong>
+                        <span>홍길동</span><br>
+                    </div>
+                    <div class="about-item">
+                        <strong>EDUCATION</strong>
+                        <span>정보보안학과</span><br>
+                    </div>
+                    <div class="about-item">
+                        <strong>CONTACT</strong>
+                        <span>010-1234-5678</span>
+                        <span>email@test.com</span><br>
+                    </div>
+                    <div class="about-item">
+                        <strong>INTEREST</strong>
+                        <span>AI Security, Reversing, System Hacking, Cloud</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-label">PROJECTS</h2>
+                <div class="card">
+                        <div class="card-content">
+                            <span class="date">2025.12 - 2026.2</span>
+                            <h3>Sudo Vulnerability Analysis</h3>
+                            <p class="project-desc">Sudo 코드 분석 및 취약점 찾기</p>
+                            <div class="tags"><span>Pwnable</span><span>Reversing</span><span>fuzzer</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <span class="date">2025.10 - 2025.12</span>
+                        <h3>CI/CD 파이프라인 구축 및 DevOps 구현</h3>
+                        <p class="project-desc">AWS 환경에서 자동화된 배포 환경을 구성하고, 보안 도구를 적용해 안정성을 강화</p>
+                        <ul class="project-details">
+                            <li>블루/그린의 배포 방식 적용</li>
+                            <li>SAST, DAST, SCA의 툴 사용 및 적용</li>
+                        </ul>
+                        <div class="tags"><span>AWS</span><span>Terraform</span></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <span class="date">2025.6 - 2025.8</span>
+                        <h3>지뢰찾기 Code Patch</h3>
+                        <ul class="project-details">
+                            <li>reversing 툴 적응</li>
+                        </ul>
+                        <div class="tags"><span>OllyDbg</span><span>Reversing</span></div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-label">SKILLS</h2>
+            <div class="skills-list">
+                <div class="skill-row">
+                    <span class="skill-category">Security</span>
+                    <div class="skill-tags">
+                        <span>Reverse Engineering</span><span>System Security</span><span>Vulnerability Analysis</span>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <span class="skill-category">DevOps</span>
+                    <div class="skill-tags">
+                        <span>AWS</span><span>Terraform</span><span>CI/CD</span>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <span class="skill-category">Development</span>
+                    <div class="skill-tags">
+                        <span>Python</span><span>C/C++</span><span>Assembly</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities" class="section">
+    <h2 class="section-label">ACTIVITIES</h2>
+    <div class="minimal-timeline">
+        <div class="tl-row">
+            <span class="tl-year">2026</span>
+            <div class="tl-events">
+                <div class="tl-item"><span>LLM Prompt Injection 오픈 세미나 기술 발표</span><em class="tl-org">2026.04.14</em></div>
+                <div class="tl-item"><span>한양대학교 CTF 참여</span><em class="tl-org">2026.02.08</em></div>
+                <div class="tl-item"><span>Inc0gnito CTF 참여</span><em class="tl-org">2026.02.07</em></div>
+                <div class="tl-item"><span>명지대학교 x 본교 합동 세미나 발표</span><em class="tl-org">2026.01.12</em></div>
+                <div class="tl-item"><span>Linux sudo 취약점 분석 및 탐색 프로젝트</span><em class="tl-org">2025.12 - 2026.02</em></div>
+            </div>
+        </div>
+
+        <div class="tl-row">
+            <span class="tl-year">2025</span>
+            <div class="tl-events">
+                <div class="tl-item"><span>CI/CD 및 DevOps 구축</span><em class="tl-org">2025.10 - 2025.12</em></div>
+                <div class="tl-item"><span>JBU CTF 장려상 수상</span><em class="tl-org">Award</em></div>
+                <div class="tl-item"><span>국가암호공모전(CCE) CTF 참여</span><em class="tl-org">CTF</em></div>
+                <div class="tl-item"><span>세종 헥테온 CTF 참여</span><em class="tl-org">CTF</em></div>
+                <div class="tl-item"><span>Toss(토스) 기업 탐방</span><em class="tl-org">Field Trip</em></div>
+                <div class="tl-item"><span>AhnLab(안랩) 기업 탐방</span><em class="tl-org">Field Trip</em></div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <p>© 2026. Your Name. All rights reserved.</p>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
